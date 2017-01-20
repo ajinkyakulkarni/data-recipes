@@ -11,7 +11,7 @@ from pydap.client import open_url
 
 # In[2]:
 
-datafile = open_url('https://hs3.nsstc.nasa.gov/opendap/hyrax/hs3/HAMSR/data/2013/HAMSR_L2_20130903T034600_20130904T020933_v01.nc')
+datafile = open_url('https://ghrc.nsstc.nasa.gov/opendap/fieldCampaigns/hs3/HAMSR/data/2013/HAMSR_L2_20130903T034600_20130904T020933_v01.nc')
 print datafile.keys()
 
 
